@@ -1,0 +1,250 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3A4454;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Nav Bar Container */
+
+.navigationBar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin:15px;
+}
+
+.navigationBar li {
+    list-style: none;
+    margin-left: 3vw;
+}
+
+.navigationBar
+a {
+    text-decoration: none;
+    color: #F5DDDD;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.navigationBar
+a:hover {
+    color: #3A4454;
+    background-color: #F5DDDD;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+/* Cover Image Container */
+
+.coverImage {
+    background-position: 50% 50%;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+}
+
+/* Midsection FLEX */
+
+.midsection {
+    display: flex;
+    padding: 10px;
+}
+
+.midsectionItems {
+    margin: 10px;
+}
+
+.profileImageContainer {
+    position: absolute;
+    margin-top: -100px;
+}
+
+.bioContainer {
+    width: 60vw;
+    margin-left: 250px;
+}
+
+.artistSuggestionsContainer {
+    width: 400px;
+    text-align: center;
+}
+
+/* Discography and Posts FLEX */
+
+
+/* Profile Image Container */
+
+.profileImage {
+    border-radius: 500px;
+    width: 200px;
+}
+
+/* Username and Follow Button Styling */
+
+.usernameContainer  {
+	display: flex;
+    align-items: center;
+}
+.profileName {
+	letter-spacing: 5px;
+    font-weight: 800;
+    margin: 0;
+}
+
+#followButton {
+    margin: 0 0 0 25px;
+    padding: 0 15px;
+    border-radius: 25px;
+    
+    color: #FFF;
+    background-color: #53687E;
+    border: none;
+    font-size: 25px;
+}
+
+#followButton:hover {
+    color: #53687E;
+    background-color: #FFF;
+    border: none;
+}
+
+
+.bioSection {
+    margin: 0;
+    color: #F5DDDD;
+    font-size: 20px;
+}
+
+/* Discography Container  */
+
+.discographyAndPosts {
+	display: flex;
+    padding: 20px;     
+}
+
+.discographyContainer {
+    width: 40vw;
+    margin-top: -100px;
+    top: -50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+.discographyContainer li {
+	list-style: none;
+    display: inline;
+}
+
+.discographyTitle {
+	position: relative;
+ 	top: -100px;
+    margin: 0 0 0 40px;
+    font-size: 35px;
+}
+
+
+.albumImage {
+    display: inline-block;
+    width: 300px;
+}
+
+/* Artist Suggestions Container */
+.artist img {
+	border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.flexContainer {
+    display: block;
+    line-height: 10px;	
+    margin-top: 10px;
+}
+
+.flexUsername {
+    margin: 5px;
+    text-align: left;
+}
+
+.artistName {
+	font-weight: 800;
+    font-size: 20px;
+}
+/* Posts Container */
+.postItems img {
+	width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.postContainer {
+	display: block;
+    margin: -50px 70px;
+   
+    
+    
+/*     border: 5px solid green;  */
+    /*  DONT REMOVE */ 
+   
+}
+
+.postContainer h2 {
+	font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.usernameContainer {
+    flex-direction: row;
+/*     border: 6px solid red;   */
+/*     DONT REMOVE */
+}
+
+.flexUsername {
+	display: block;
+    line-height: 10px;
+}
+
+.flexUsername p:first-child {
+	font-weight: 800;
+}
+
+.postItems {
+	border: 5px solid #FFF;
+/*     DONT REMOVE */
+    margin: 20px;
+    padding: 10px;
+}
+
+#postedImage {
+	height: auto;
+    width: 40vw;
+    border-radius: 25px;
+}
+
+/* spotify playlist  */
+
+.spotifyContainer iframe {
+	width: 40vw;
+    height: 90vh;
+    margin: 25px 0 0 40px;
+    border: none;
+    
+}
+
+/* name and heart styling */
+
+.name { 
+    text-align: center;
+}
+
+.heart {
+	width: 30px;
+}
+
